@@ -112,7 +112,6 @@ Package List:
 - [base-devel](https://archlinux.org/packages/core/any/base-devel/) (Basic Build Tools for Arch Linux Packages)
 - [linux](https://archlinux.org/packages/core/any/base-devel/) (Linux Kernel and Modules)
 - [linux-firmware](https://archlinux.org/packages/core/any/linux-firmware/) (Firmware Files for Arch Linux)
-- [linux-hardened](https://archlinux.org/packages/extra/x86_64/linux-hardened/) (Security Hardened Linux Kernel and Modules)
 - [btrfs-progs](https://archlinux.org/packages/core/x86_64/btrfs-progs/) (BTRFS File System Utilities)
 - [sudo](https://archlinux.org/packages/core/x86_64/btrfs-progs/) (Allows User to Run Root Priviledged Commands)
 - [nano](https://archlinux.org/packages/core/x86_64/nano/) (Simple Command Line Text Editor)
@@ -127,7 +126,7 @@ Package List:
  
 ```bash
 # Installing ALL Necessary Packages
-$ pacstrap -K /mnt base base-devel linux linux-firmware linux-hardened btrfs-progs sudo nano networkmanager efibootmgr mtools dosfstools os-prober git net-tools neofetch
+$ pacstrap -K /mnt base base-devel linux linux-firmware btrfs-progs sudo nano networkmanager efibootmgr mtools dosfstools os-prober git net-tools neofetch
 ```
 
 > 7. Generating FSTAB
